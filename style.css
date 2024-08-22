@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+/* header and navbar section css here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #111010;
+    color: #fff;
+}
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar a:hover{
+    background-color: #f4f4f4;
+    color: #111010;
+}
+.weby{
+    background-image: url(yes.webp);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.weby h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-family: "DM Serif Text", serif;
+    color: rgb(202, 208, 20);
+}
+.weby p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #c72121;
+    font-weight: bold;
+}
+.weby .cta-btn button{
+    background-color: #ff6600;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+}
+.cta-btn button:hover{
+    background-color: #ff3300;
+}
+/* Course overview section css here */
+.course-overview{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.course-overview h2{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.course-overview .card-over{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.course-overview .card{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.course-overview .card img{
+    width: 172px;
+    margin-bottom: 10px;
+}
+/* Testimonials Section css here */
+.testimonials{
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.testimonials h2{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.testimonials .car{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+.testimonials .test{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width:300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.testimonials .test p{
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.car-controls{
+    margin-top: 20px;
+    text-align: center;
+}
+.car-controls button{
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.car-controls button:hover{
+    background-color: #ff3300;
+}
+/* Course css is here */
+.course-content{
+    padding:50px 20px ;
+    background-color: #f4f4f4;
+}
+.course-content h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.course-content ul{
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+.course-content ul li{
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Pricing css here */
+.pricing{
+    padding:50px 20px ;
+    background-color: #fff;
+    text-align: center;
+}
+.pricing h2{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.pricing .pricing-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricing .card{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width:300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* FAQ css here */
+.faq{
+    padding:50px 20px ;
+    background-color: #f4f4f4;
+}
+.faq h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.faq .faq-item{
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Login and registration css here */
+.register-login{
+    padding:50px 20px ;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(login.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.register-login h2{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #f4f4f4;
+}
+.register-login form{
+    max-width: 400px;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.register-login form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.register-login form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Footer css here */
+footer{
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+/* for Responsiveness of the page */
+@media (max-width: 768px){
+    header, .course-overview .card-over, .pricing .pricing-cards{
+        flex-direction: column;
+        text-align: center;
+    }
+    .weby h1{
+        font-size: 36px;
+    }
+    .weby p{
+        font-size: 17px;
+    }
+}
